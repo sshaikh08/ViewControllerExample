@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Euler Answer 1"
+        android:id="@+id/eulerAns1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Euler Answer 2"
+        android:id="@+id/eulerAns2"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/eulerAns1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Euler Answer 3"
+        android:id="@+id/eulerAns3"
+        android:layout_below="@+id/eulerAns2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:gravity="center"
+        android:id="@+id/eulerAnswer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"/>
+
+</RelativeLayout>
